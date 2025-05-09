@@ -1,0 +1,195 @@
+/* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body and global font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  color: #333;
+}
+
+/* Headings */
+h1, h2 {
+  margin-bottom: 15px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"] {
+  padding: 8px;
+  margin: 10px 5px 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Behavior and Todo card styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav {
+  margin-bottom: 20px;
+  background: #007bff;
+  padding: 10px;
+}
+
+nav a {
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Utility classes */
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* New styles for login form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styling for Home page */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  max-width: 150px;
+}
+
+/* Styling for BehaviorCard */
+.behavior-card {
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.behavior-card a {
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.behavior-card a:hover {
+  text-decoration: underline;
+}
+
+.behavior-card button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.behavior-card button:hover {
+  background-color: #c82333;
+}
+
+/* Styling for TodoItem */
+.todo-item {
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item button {
+  margin-left: 8px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.todo-item button.edit {
+  background-color: #007bff;
+  color: white;
+}
+
+.todo-item button.edit:hover {
+  background-color: #0056b3;
+}
+
+.todo-item button.delete {
+  background-color: red;
+  color: white;
+}
+
+.todo-item button.delete:hover {
+  background-color: #b30000;
+}
