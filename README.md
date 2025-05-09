@@ -27,5 +27,4 @@ A full-stack self-improvement tracker where users can manage personal developmen
 
 ---
 
-## 📁 Folder Structure
-
+ 
